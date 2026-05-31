@@ -1,0 +1,14 @@
+{
+  "name": "ai-interview-workers",
+  "version": "0.1.0",
+  "scripts": {
+    "merge": "node mergeWorker.js",
+    "transcribe": "node transcribeWorker.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1400.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.4.0",
+    "child_process": "^1.0.2"
+  }
+}
